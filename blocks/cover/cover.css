@@ -1,0 +1,7 @@
+@import url('../cover/__text/cover__text.css');
+@import url('../cover/__title/cover__title.css');
+@import url('../cover/__item/cover__item.css');
+.cover {
+    justify-content: center;
+    position: relative;
+}

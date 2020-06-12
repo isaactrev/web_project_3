@@ -1,0 +1,10 @@
+.place__url-container {
+    margin-top: 80px;
+}
+
+@media screen and (max-width: 425px) {
+    .place__url-container {
+        margin-top: 0;
+        display: none;
+    }
+}
