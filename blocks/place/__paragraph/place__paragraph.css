@@ -1,5 +1,12 @@
 .place__paragraph {
     margin: 0 auto 24px auto;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    color: #FFFFFF;
 }
 
 @media screen and (max-width: 425px) {

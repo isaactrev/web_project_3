@@ -1,6 +1,4 @@
 .header__lang-link_active {
-    width: 29px;
-    height: 28px;
     color: white;
     font-family: Inter;
     font-style: normal;
@@ -11,3 +9,9 @@
     text-align: right;
     text-decoration-line: underline;
 }
+
+@media screen and (max-width: 425px) {
+    .header__lang-link_active {
+        font-size: 18px;
+        line-height: 24px;
+    }

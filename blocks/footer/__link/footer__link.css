@@ -1,5 +1,4 @@
 .footer__link {
-    max-width: 42px;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -9,4 +8,14 @@
     /* identical to box height, or 112% */
     color: #FFFFFF;
     margin-right: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__link {}
+}
+
+@media screen and (max-width: 425px) {
+    .footer__link {
+        margin-bottom: 32px;
+    }
 }

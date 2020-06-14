@@ -1,5 +1,4 @@
 .intro__list {
-    max-width: 690px;
     font-family: Inter;
     font-style: normal;
     font-weight: bold;
@@ -8,4 +7,17 @@
     list-style: none;
     padding: 0;
     /* or 150% */
+    margin-bottom: 92px;
+}
+
+@media screen and (max-width: 768px) {
+    .intro__list {
+        margin-bottom: 88px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .intro__list {
+        margin-bottom: 64px;
+    }
 }

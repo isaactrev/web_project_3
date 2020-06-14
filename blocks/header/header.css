@@ -4,15 +4,18 @@
     display: flex;
     justify-content: space-between;
     margin: 34px 48px 58px 48px;
-    border: 1px solid blue;
 }
 
 @media screen and (max-width: 1024px) {
-    .header {}
+    .header {
+        margin: 34px 48px 50px 48px;
+    }
 }
 
 @media screen and (max-width: 768px) {
-    .header {}
+    .header {
+        margin: 34px 24px 50px 24px;
+    }
 }
 
 @media screen and (max-width: 425px) {
