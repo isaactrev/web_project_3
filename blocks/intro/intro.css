@@ -2,8 +2,10 @@
 @import url('./__subtitle/intro__subtitle.css');
 @import url('./__text/intro__text.css');
 @import url('./__list/intro__list.css');
+@import url('./intro__list-digits/intro__list-digits.css');
 .intro {
-    margin: 0 148px 0 148px;
+    margin: 0 auto;
+    font-family: "Inter", Arial, sans-serif;
 }
 
 @media screen and (max-width: 1024px) {

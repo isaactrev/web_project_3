@@ -1,9 +1,12 @@
 @import url('./__lang-link/header__lang-link.css');
 @import url('./__lang-links-container/header__lang-links-container.css');
+@import url('./__lang-link/_active/header__lang-link_active.css');
 .header {
+    max-width: 984px;
     display: flex;
     justify-content: space-between;
     margin: 34px 48px 58px 48px;
+    font-family: "Inter", Arial, sans-serif;
 }
 
 @media screen and (max-width: 1024px) {

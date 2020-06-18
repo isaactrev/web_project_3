@@ -10,6 +10,8 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     grid-gap: 48px 40px;
+    font-family: "Inter", Arial, sans-serif;
+    max-width: 984px;
 }
 
 .place:last-child {
@@ -18,19 +20,19 @@
 
 @media screen and (max-width: 1024px) {
     .place {
-        grid-template-columns: minmax(10px, 440px) 1fr;
+        grid-template-columns: 1fr 1fr;
         gap: 48px 32px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .place {
-        grid-template-columns: minmax(10px, 340px) 1fr;
+        grid-template-columns: 1fr 1fr;
         gap: 48px 28px;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px) {
     .place {
         grid-template-columns: auto;
         gap: 32px;

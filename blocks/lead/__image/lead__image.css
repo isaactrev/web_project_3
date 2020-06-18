@@ -3,25 +3,27 @@
     object-fit: contain;
     display: flex;
     align-self: center;
-    margin: 0 148px;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 1024px) {
     .lead__image {
-        max-width: 928px;
-        object-fit: contain;
-        margin: 0 48px;
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 768px) {
     .lead__image {
-        max-height: 480px;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 
 @media screen and (max-width: 425px) {
     .lead__image {
-        max-height: 200px;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
