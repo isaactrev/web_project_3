@@ -5,7 +5,7 @@
     max-width: 984px;
     display: flex;
     justify-content: space-between;
-    margin: 34px 48px 58px 48px;
+    margin: 34px auto 58px;
     font-family: "Inter", Arial, sans-serif;
 }
 
@@ -25,3 +25,4 @@
     .header {
         margin: 20px 16px 50px 16px;
     }
+}
