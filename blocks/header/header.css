@@ -11,18 +11,21 @@
 
 @media screen and (max-width: 1024px) {
     .header {
+        max-width: 928px;
         margin: 34px 48px 50px 48px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .header {
+        max-width: 720px;
         margin: 34px 24px 50px 24px;
     }
 }
 
 @media screen and (max-width: 425px) {
     .header {
+        max-width: 288px;
         margin: 20px 16px 50px 16px;
     }
 }

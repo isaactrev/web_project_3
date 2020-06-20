@@ -10,7 +10,7 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 48px 40px;
     font-family: "Inter", Arial, sans-serif;
-    max-width: 984px;
+    max-width: 1080px;
 }
 
 .place:last-child {
